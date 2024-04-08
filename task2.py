@@ -14,3 +14,10 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+c = float(input("How manny Canadian Dollars do you have?> "))
+
+a = ( 1 / 1.25 ) * c
+a = round( a, 2 )
+
+print(f"You have ${a} USD")
